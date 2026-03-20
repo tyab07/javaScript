@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Password</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+   <div class="wrapper">
+    <div class="largeContainer">
+       <div class="container1">
+     <h2>Password Generator</h2>
+   </div>
+   <div class="container2">
+    <div class="search">
+        <h4 id="Ppaste" > </h4>
+    </div>
+    <div class="copy">
+        <button id="copyButton">copy</button>
+    </div>
+   </div>
+   <div class="container3">
+       <div class="boxP" >
+         <div>
+              <h4 id="length">Password Length</h4>
+         </div>
+         <div>
+              <span id="pNum"> 0</span>
+         </div>
+        
+       </div>
+       <div class="box" id="slide">
+            <input type="range" id="slider" name="slider" min="4" max="10" value="5">
+
+       </div>
+       <div class="box" id="options">
+        <div>
+             <input type="checkbox" id="checkbox1">
+            <label for="checkbox1">Include Uppercase Letters</label>
+        </div>
+        <div>
+
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2">Include Lowercase Letters</label>
+        </div>
+        <div>
+
+            <input type="checkbox" id="checkbox3">
+            <label for="checkbox3">Include Numbers</label>
+        </div>
+        <div>
+
+            <input type="checkbox" id="checkbox4">
+            <label for="checkbox4">Include Symbols</label>
+        </div>
+       </div>
+       <div class="strength" >
+        <div><h4 id="strength">Strength</h4></div>
+        <div  id="sCircle">
+        </div>
+       </div>
+       <div class="box" id="generate">
+        <button id="generateButton">GENERATE PASSWORD</button>
+       </div>
+    
+   </div>
+    </div>
+  
+        
+   </div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to left, #141A56,#7E57C2);
+    flex-wrap: wrap;
+}
+.largeContainer
+{
+     display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 70vh;
+    position: relative;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+#options
+{
+    display: flex;
+    flex-direction: column;
+}
+.container1
+{
+    margin-left: 20px;
+    color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container2
+{
+    position: relative;
+    display: flex;
+    border-radius: 8px;
+    height: 5vh;
+   background-color: #11174E;
+   justify-content: space-between;
+   align-items: center;
+   
+    
+}
+.container3
+{
+     background-color: #11174E;
+     border-radius: 8px;
+     position: relative;
+     top: 10px;
+}
+.search
+{
+    position: relative;
+  left: 3px;
+  top: 5px;
+  
+  
+}
+#Ppaste
+{   position: relative;
+   
+    width: 30vb; 
+    height: 5vh; 
+    bottom: 4px;
+    color:goldenrod;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:solid;
+    text-shadow: 2px 2px 10px yellowgreen;
+}
+#copyButton {
+  border: none;
+  background-color: transparent;
+  color: black;       
+  cursor: pointer;   
+  font-size: 16px;    
+  height: 5vh;
+   color: dodgerblue;
+}
+
+.copy
+{
+    position: relative;
+    left:4px;
+    
+}
+input[type="checkbox"] {
+    appearance: none;             
+  -webkit-appearance: none;      
+  width: 16px;
+  height: 16px;
+  border: 2px solid dodgerblue;  
+  background-color: #11174E;     
+  border-radius: 4px;           
+  cursor: pointer;
+  position: relative;
+  top: 7px;
+}
+input[type="checkbox"]:checked {
+  background-color: dodgerblue;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path d='M6 10l3 3 6-6'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+  
+}
+#length,label,#strength
+{
+    color:whitesmoke;
+}
+
+#sCircle
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius :50%;
+}
+.strength
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxP
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#generate
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    position: relative;
+    bottom: 10px;
+    background-color:#B36DBF;
+   
+    width:18vw;
+    height: 5vh;
+    border-radius: 5px;
+    left:15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 1px rgba(221, 16, 16, 0.3);
+
+}
+#generateButton
+{
+    position: relative;
+    border: none;
+    border-radius: 10%;
+    color:burlywood;
+    background-color: #B36DBF;
+    cursor: pointer;
+}
+#length,#strength
+{
+    margin-left: 2px;
+}
+#slide
+{
+    display: flex;
+    color: whitesmoke;
+
+}
+#pNum,#sCircle
+{
+    position: relative;
+    margin-right: 10px;
+}
+#pNum
+{
+    color: whitesmoke;
+}
