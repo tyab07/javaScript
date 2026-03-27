@@ -1,0 +1,95 @@
+# =========================
+# Node.js (Backend)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Build output
+dist/
+build/
+
+# =========================
+# React (Frontend)
+# =========================
+# Dependency directories
+frontend/node_modules/
+
+# Build files
+frontend/build/
+frontend/dist/
+
+# React environment files
+frontend/.env
+frontend/.env.*
+
+# =========================
+# OS & Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# =========================
+# Misc
+# =========================
+*.tgz
+*.tar.gz
+
+# Temporary files
+tmp/
+temp/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# =========================
+# Testing
+# =========================
+jest.config.js
+coverage/
+
+# =========================
+# Optional (if using uploads)
+# =========================
+uploads/
+public/uploads/
+
+# =========================
+# TypeScript (if used)
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Next.js / Vite (if used)
+# =========================
+.next/
+out/
+vite.svg
